@@ -7,6 +7,8 @@ body {
   --card-bg: #ffffff;
   --text: #111827;
   --muted-text: #4b5563;
+  --input-bg: #ffffff;
+  --input-border: #d1d5db;
   --button-bg: #1769ff;
   --button-hover-bg: #0f4fc6;
   --button-text: #ffffff;
@@ -24,6 +26,8 @@ body[data-theme='dark'] {
   --card-bg: #1f2937;
   --text: #f9fafb;
   --muted-text: #d1d5db;
+  --input-bg: #111827;
+  --input-border: #374151;
   --button-bg: #3b82f6;
   --button-hover-bg: #2563eb;
   --button-text: #ffffff;
@@ -77,4 +81,58 @@ p {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+.inquiry-section {
+  margin-top: 36px;
+  text-align: left;
+}
+
+.inquiry-section h2 {
+  margin: 0 0 8px;
+}
+
+.inquiry-section p {
+  margin: 0 0 14px;
+}
+
+.inquiry-form {
+  display: grid;
+  gap: 10px;
+}
+
+.inquiry-form label {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.inquiry-form input,
+.inquiry-form textarea {
+  width: 100%;
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: var(--input-bg);
+  color: var(--text);
+}
+
+.inquiry-form input:focus,
+.inquiry-form textarea:focus {
+  outline: 2px solid var(--button-bg);
+  outline-offset: 1px;
+}
+
+.submit-button {
+  margin-top: 6px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--button-bg);
+  color: var(--button-text);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: var(--button-hover-bg);
 }
