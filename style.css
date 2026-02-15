@@ -136,3 +136,12 @@ p {
 .submit-button:hover {
   background: var(--button-hover-bg);
 }
+
+.comments-section {
+  margin-top: 36px;
+  text-align: left;
+}
+
+.comments-section h2 {
+  margin: 0 0 12px;
+}
