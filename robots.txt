@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iajh8473i-cpu.github.io/product-builder-lecture/sitemap.xml

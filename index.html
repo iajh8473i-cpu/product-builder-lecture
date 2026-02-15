@@ -3,61 +3,108 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="로또 번호 추첨기와 당첨 확률, 구매 방법, 예산 관리 가이드를 제공하는 실용 정보 사이트입니다." />
   <meta name="google-adsense-account" content="ca-pub-8243745874719740" />
-  <title>로또번호 추첨기</title>
+  <title>로또 인사이트 | 추첨기와 실전 가이드</title>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8243745874719740" crossorigin="anonymous"></script>
-  <link href='/style.css' rel='stylesheet'>
+  <link href="/style.css" rel="stylesheet">
 </head>
 <body>
-  <main class="container">
-    <div class="toolbar">
-      <button id="theme-toggle" type="button">다크모드</button>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="/index.html">로또 인사이트</a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <a href="/index.html" aria-current="page">홈</a>
+        <a href="/about.html">사이트 소개</a>
+        <a href="/privacy.html">개인정보처리방침</a>
+        <a href="/terms.html">이용약관</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button">다크모드</button>
     </div>
-    <h1>로또번호 추첨기</h1>
-    <p>버튼을 누르면 1~45 사이에서 중복 없는 번호 6개를 뽑습니다.</p>
-    <button id="draw-button" type="button">번호 뽑기</button>
-    <div id="result" class="result" aria-live="polite"></div>
+  </header>
 
-    <section class="inquiry-section" aria-labelledby="inquiry-title">
+  <main class="page">
+    <section class="hero card">
+      <h1>로또 정보, 한 곳에서 정확하게</h1>
+      <p>
+        이 사이트는 단순 번호 생성기만 제공하지 않습니다. 당첨 확률 계산, 실제 구매 절차,
+        과도한 지출을 막는 예산 가이드까지 함께 제공해 방문자가 바로 활용할 수 있는 정보를 목표로 운영합니다.
+      </p>
+      <p class="updated">최종 업데이트: 2026-02-15</p>
+    </section>
+
+    <section class="card" aria-labelledby="lotto-tool-title">
+      <h2 id="lotto-tool-title">로또번호 추첨기</h2>
+      <p>버튼을 누르면 1~45 사이에서 중복 없는 번호 6개를 무작위 추첨하고 오름차순으로 보여줍니다.</p>
+      <div class="tool-row">
+        <button id="draw-button" class="primary-button" type="button">번호 뽑기</button>
+        <div id="result" class="result" aria-live="polite"></div>
+      </div>
+      <p class="note">참고: 추첨기는 오락 및 연습용 도구이며, 당첨을 보장하지 않습니다.</p>
+    </section>
+
+    <section class="card" aria-labelledby="guide-title">
+      <h2 id="guide-title">처음 구매하는 분을 위한 핵심 가이드</h2>
+      <article>
+        <h3>1) 당첨 확률을 이해하고 시작하기</h3>
+        <p>
+          6/45 방식에서 1등은 매우 낮은 확률입니다. 따라서 구매 전 목표를 "수익"이 아닌 "오락 비용"으로 설정하는 것이 현실적입니다.
+          기대수익보다 지출 통제가 더 중요하며, 월 단위로 예산 상한을 먼저 정해두면 충동 구매를 줄일 수 있습니다.
+        </p>
+      </article>
+      <article>
+        <h3>2) 번호 선택보다 관리 전략이 중요</h3>
+        <p>
+          수동/자동 선택 방식은 장기 기대값 관점에서 본질적인 우위가 없습니다. 오히려 회차 기록,
+          구매 빈도, 예산 준수 여부를 관리하는 것이 손실을 최소화하는 핵심입니다.
+          반복 구매 시에는 같은 패턴을 무리하게 늘리기보다 정해둔 범위 안에서 규칙적으로 접근하세요.
+        </p>
+      </article>
+      <article>
+        <h3>3) 신뢰할 수 있는 정보만 확인하기</h3>
+        <p>
+          당첨 예측을 과장하거나 필승 전략을 주장하는 정보는 주의가 필요합니다. 공식 발표 결과,
+          공신력 있는 통계, 구매 내역 기록처럼 검증 가능한 데이터 중심으로 판단해야 장기적으로 안전합니다.
+        </p>
+      </article>
+    </section>
+
+    <section class="card" aria-labelledby="checklist-title">
+      <h2 id="checklist-title">건강한 이용 체크리스트</h2>
+      <ul class="checklist">
+        <li>월 예산을 먼저 정하고, 초과 구매는 하지 않는다.</li>
+        <li>손실 만회를 위한 추가 구매를 하지 않는다.</li>
+        <li>개인정보와 결제정보는 공식 채널에서만 입력한다.</li>
+        <li>당첨 여부는 공식 결과로만 확인한다.</li>
+      </ul>
+    </section>
+
+    <section class="card inquiry-section" aria-labelledby="inquiry-title">
       <h2 id="inquiry-title">제휴 문의</h2>
-      <p>간단한 정보를 남겨주시면 확인 후 연락드리겠습니다.</p>
-      <form
-        class="inquiry-form"
-        action="https://formspree.io/f/xlgwbody"
-        method="POST"
-      >
+      <p>콘텐츠 제휴, 광고 제안, 기술 협업 문의를 받고 있습니다. 접수 후 순차 답변드립니다.</p>
+      <form class="inquiry-form" action="https://formspree.io/f/xlgwbody" method="POST">
         <input type="hidden" name="_subject" value="신규 제휴 문의" />
 
         <label for="name">이름</label>
-        <input id="name" name="name" type="text" required />
+        <input id="name" name="name" type="text" autocomplete="name" required />
 
         <label for="email">이메일</label>
-        <input id="email" name="email" type="email" required />
+        <input id="email" name="email" type="email" autocomplete="email" required />
 
         <label for="company">회사명</label>
-        <input id="company" name="company" type="text" />
+        <input id="company" name="company" type="text" autocomplete="organization" />
 
         <label for="message">문의 내용</label>
         <textarea id="message" name="message" rows="5" required></textarea>
 
-        <button class="submit-button" type="submit">문의 보내기</button>
+        <button class="primary-button" type="submit">문의 보내기</button>
       </form>
     </section>
 
-    <section class="comments-section" aria-labelledby="comments-title">
+    <section class="card comments-section" aria-labelledby="comments-title">
       <h2 id="comments-title">댓글</h2>
       <div id="disqus_thread"></div>
       <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-        */
-        /*
-        var disqus_config = function () {
-          this.page.url = PAGE_URL;
-          this.page.identifier = PAGE_IDENTIFIER;
-        };
-        */
         (function() {
           var d = document;
           var s = d.createElement('script');
@@ -72,6 +119,15 @@
       </noscript>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <p>운영 주제: 로또 정보/도구 제공</p>
+      <p>문의: partnership@lottoinsight.example</p>
+      <p>본 사이트는 정보 제공 목적이며 투자/수익을 보장하지 않습니다.</p>
+    </div>
+  </footer>
+
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
